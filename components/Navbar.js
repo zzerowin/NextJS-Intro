@@ -6,7 +6,6 @@ export default function Navbar() {
 
   return (
     <nav>
-
       <Link href='/'>
         <a className={router.pathname === '/' ? 'active' : ''}>Home</a>
       </Link>
